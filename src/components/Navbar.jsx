@@ -21,10 +21,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 scale-150 object-contain" />
+          <img src='/src/assets/logo-favicon.svg' alt="logo" className="w-9 h-9 scale-105 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Farhan Khan &nbsp;
-            <span className="sm:block hidden">|&nbsp;Lead Software Engineer</span>
+            <span className="sm:block hidden">|&nbsp; Lead Software Engineer</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
