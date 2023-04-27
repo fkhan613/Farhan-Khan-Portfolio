@@ -47,11 +47,11 @@ const services = [
   },
   {
     title: "Technical Lead",
-    icon: web,
+    icon: mobile,
   },
   {
     title: "FullStack Software Engineer",
-    icon: web,
+    icon: creator,
   },
   {
     title: "Backend Software Engineer",
