@@ -39,7 +39,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]"
         >
           Hey there 👋 I'm Farhan. I am currently the Lead Full Stack Software
           Engineer/Technical Lead at Digitera Interactive and a Computer Science
@@ -53,7 +53,7 @@ const About = () => {
           me a message.
         </motion.p>
 
-        <div className="mt-20 flex flex-wrap gap-10">
+        <div className="mt-20 flex flex-wrap gap-10 justify-center">
           {services.map((service, index) => (
             <ServiceCard key={service.title} index={index} {...service} />
           ))}
