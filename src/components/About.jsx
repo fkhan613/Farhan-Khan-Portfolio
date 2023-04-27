@@ -43,8 +43,7 @@ const About = () => {
         >
           Hey there 👋 I'm Farhan. I am currently the Lead Full Stack Software
           Engineer/Technical Lead at Digitera Interactive and a Computer Science
-          & Business Management Student @ Carleton University in addition to
-          being a grade 12 student at Colonel By Secondary School. I am
+          & Business Management Student @ Carleton University. I am
           constantly looking for enriching opportunities with cutting-edge
           technology that I can use to change the world for the better. I like
           working on team projects and getting to know new people, as it allows
