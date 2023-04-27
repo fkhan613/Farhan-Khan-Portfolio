@@ -49,7 +49,7 @@ const About = () => {
           technology that I can use to change the world for the better. I like
           working on team projects and getting to know new people, as it allows
           me to learn from other's experiences and create valuable networks
-          along the way.Feel free to look at some of my work on GitHub or send
+          along the way. Feel free to look at some of my work on GitHub or send
           me a message.
         </motion.p>
 
