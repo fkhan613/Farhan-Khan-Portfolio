@@ -1,8 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import {About, Contact, Experience, Feedbacks, Hero, Navbar, Works, StarsCanvas, Tech} from './components';
 
-console.log(About);
-
 const App = () => {
   return(
     <BrowserRouter>

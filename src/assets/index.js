@@ -25,6 +25,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import promplanner from "./company/promplanner.png";
+import digitera from "./company/digitera.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -50,6 +52,7 @@ export {
   reactjs,
   redux,
   tailwind,
+  digitera,
   typescript,
   threejs,
   meta,
@@ -59,4 +62,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  promplanner,
 };
