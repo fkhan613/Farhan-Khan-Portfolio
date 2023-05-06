@@ -6,15 +6,21 @@ import {
   javascript,
   typescript,
   html,
+  express,
   css,
   reactjs,
   tailwind,
   nodejs,
   mongodb,
   git,
-  meta,
   digitera,
   carrent,
+  java,
+  lorchid,
+  laravel,
+  mysql,
+  php,
+  python,
   jobit,
   tripguide,
   promplanner,
@@ -72,15 +78,19 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "ReactJS",
     icon: reactjs,
+  },
+  {
+    name: "ExpressJS",
+    icon: express,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
+    name: "NodeJS",
     icon: nodejs,
   },
   {
@@ -88,7 +98,31 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "git",
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Laravel",
+    icon: laravel,
+  },
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Laravel Orchid",
+    icon: lorchid,
+  },
+  {
+    name: "Git",
     icon: git,
   },
 ];

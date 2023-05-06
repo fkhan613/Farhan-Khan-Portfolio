@@ -20,6 +20,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import express from "./tech/express.png";
+import java from "./tech/java.png";
+import python from "./tech/python.png";
+import php from "./tech/php.png";
+import laravel from "./tech/laravel.png";
+import mysql from "./tech/mysql.png";
+import lorchid from "./tech/orchid.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +44,12 @@ export {
   backend,
   creator,
   mobile,
+  java,
+  python,
+  php,
+  lorchid,
+  laravel,
+  mysql,
   web,
   github,
   menu,
@@ -48,6 +61,7 @@ export {
   html,
   javascript,
   mongodb,
+  express,
   nodejs,
   reactjs,
   redux,
