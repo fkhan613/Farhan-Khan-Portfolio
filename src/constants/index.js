@@ -171,17 +171,17 @@ const experiences = [
 ];
 
 const testimonials = [
+  // {
+  //   testimonial:
+  //     'Farhan is an extremely bright and talented computer science prodigy. He has always demonstrated an incredible keenness for problem solving, logical thinking, and application development. He is also an extremely quick and efficient learner, having learned and properly understood the process of creating a fully functional web application in under 5 months. Apart from that, he excels at object oriented programming, as well as all logic oriented sciences. He is extremely passionate about what he does, never gives up, and has an incredibly positive and enthusiastic work ethic, which is one of my favorite traits about him. He is always curious to learn new things and expand his skills and knowledge in any possible way, as he has demonstrated by taking on various personal projects in his free time, in all of which he has learned new concepts and design strategies. He is extremely determined to constantly improve himself, and, in my opinion, is the personification of "the only person you should strive to be better than is the person you were yesterday" demonstrated by his leap into multi-level secure programming upon discovery of a security vulnerability in one of his older projects. It is with great pleasure and enthusiasm that I recommend Farhan to you. He is in every way unique, and will be most certainly be an invaluable asset to those he works both for and alongside.',
+  //   name: "Zade Ammar",
+  //   designation: "Cyber Security Engineer",
+  //   company: "Acme Co",
+  //   image: "https://randomuser.me/api/portraits/men/4.jpg",
+  // },
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -189,11 +189,19 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+  {
+    testimonial:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    name: "Chris Brown",
+    designation: "COO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 
