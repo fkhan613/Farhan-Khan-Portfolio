@@ -1,3 +1,4 @@
+import React from "react";
 import { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
@@ -5,6 +6,8 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const formRef = useRef();
@@ -16,9 +19,45 @@ const Contact = () => {
 
   const [loading, setloading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setform({ ...form, [name]: value });
+  };
 
-  const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setloading(true);
+
+    emailjs
+      .send(
+        "service_ktrlyi1",
+        "template_om7d8ct",
+        {
+          from_name: form.name,
+          from_email: form.email,
+          message: form.message,
+          to_name: "Farhan",
+          to_email: "farhan.work435@gmail.com",
+        },
+        "lQ78q1t1lWwmS9R_e"
+      )
+      .then(
+        () => {
+          setloading(false);
+          toast.success("Message sent succesfully! I will get back to you soon.");
+          setform({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setloading(false);
+          toast.error("Something went wrong.");
+        }
+      );
+  };
+
 
   return (
     <div
@@ -43,7 +82,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="John Doe?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -54,7 +93,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="johndoe@gmail.com"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -78,7 +117,6 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
-
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
