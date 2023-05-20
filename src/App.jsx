@@ -20,16 +20,13 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-          <About />
+        <About />
         <div className="relative z-0">
           <Experience />
           <StarsCanvas />
         </div>
         <Tech />
-        <div className="relative z-0">
-          <Projects />
-          <StarsCanvas />
-        </div>
+        <Projects />
         <Feedbacks />
 
         <div className="relative z-0">
@@ -37,10 +34,7 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
-      <ToastContainer
-        position="bottom-right"
-        theme="dark"
-      />
+      <ToastContainer position="bottom-right" theme="dark" />
     </BrowserRouter>
   );
 };
