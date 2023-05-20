@@ -52,3 +52,52 @@
   color: rgb(11, 28, 63);
   font-size: medium;
 }
+
+.button {
+  font-family: inherit;
+  background: #003bba;
+  color: white;
+  padding: 0.35em 0;
+  font-size: 17px;
+  border: none;
+  border-radius: 0.7em;
+  letter-spacing: 0.08em;
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 2.5em;
+  padding-left: 2.8em;
+  padding-right: 0.92em;
+}
+
+.button .icon {
+  background: rgb(21 16 48);
+  height: 2em;
+  width: 2em;
+  border-radius: 2em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0.4em;
+  transition: all 0.5s;
+}
+
+.icon svg {
+  margin-left: 0.1em;
+  transition: all 0.5s;
+  color: #ffffff;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.button:hover .icon svg {
+  transform: rotate(360deg);
+}
+
+.button:hover .icon {
+  width: calc(100% - 0.85rem);
+  border-radius: 0.5em;
+}
