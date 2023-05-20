@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
@@ -18,6 +18,7 @@ const Contact = () => {
   });
 
   const [loading, setloading] = useState(false);
+  const [counter, setCounter] = useState(60);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -27,6 +28,26 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setloading(true);
+
+    //make sure nothing is blank in form 
+    if (form.name === "" || form.email === "" || form.message === "") {
+      setloading(false);
+      toast.error("Please fill all the fields.");
+      return;
+    }
+
+    //disable submit button for 60 seconds
+    const submitBtn = formRef.current.lastChild;
+    submitBtn.disabled = true;
+    submitBtn.style.cursor = "not-allowed";
+    submitBtn.style.opacity = "0.5";
+    submitBtn.innerText = "Wait 2 minutes to send again";
+
+    setTimeout(() => {
+      submitBtn.disabled = false;
+      submitBtn.style.cursor = "pointer";
+      submitBtn.style.opacity = "1";
+    }, 120000);
 
     emailjs
       .send(
@@ -44,7 +65,9 @@ const Contact = () => {
       .then(
         () => {
           setloading(false);
-          toast.success("Message sent succesfully! I will get back to you soon.");
+          toast.success(
+            "Message sent succesfully! I will get back to you soon."
+          );
           setform({
             name: "",
             email: "",
@@ -57,7 +80,6 @@ const Contact = () => {
         }
       );
   };
-
 
   return (
     <div
