@@ -40,9 +40,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import andy from "./andy.jpg";
+
 export {
   logo,
   backend,
+  andy,
   creator,
   mobile,
   java,

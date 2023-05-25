@@ -20,6 +20,7 @@ import {
   lorchid,
   laravel,
   mysql,
+  andy,
   php,
   python,
   jobit,
@@ -181,11 +182,12 @@ const testimonials = [
   // },
   {
     testimonial:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Reliable, intelligent and trustworthy individual who takes advantage of opportunities, one to look out for. Farhan would be an invaluable asset to any fortunate organization he joins.",
+    name: "Andy Tian",
+    designation: "Full Stack Software Engineer",
+    link: "https://www.linkedin.com/in/andytian04/",
+    company: "Digitera Interactive",
+    image: andy,
   },
   {
     testimonial:
