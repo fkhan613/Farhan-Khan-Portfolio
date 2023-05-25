@@ -11,7 +11,6 @@ import {
   reactjs,
   tailwind,
   nodejs,
-  live,
   mongodb,
   git,
   digitera,
@@ -22,9 +21,8 @@ import {
   mysql,
   andy,
   php,
+  nopfp,
   python,
-  jobit,
-  tripguide,
   promplanner,
 } from "../assets";
 
@@ -172,14 +170,15 @@ const experiences = [
 ];
 
 const testimonials = [
-  // {
-  //   testimonial:
-  //     'Farhan is an extremely bright and talented computer science prodigy. He has always demonstrated an incredible keenness for problem solving, logical thinking, and application development. He is also an extremely quick and efficient learner, having learned and properly understood the process of creating a fully functional web application in under 5 months. Apart from that, he excels at object oriented programming, as well as all logic oriented sciences. He is extremely passionate about what he does, never gives up, and has an incredibly positive and enthusiastic work ethic, which is one of my favorite traits about him. He is always curious to learn new things and expand his skills and knowledge in any possible way, as he has demonstrated by taking on various personal projects in his free time, in all of which he has learned new concepts and design strategies. He is extremely determined to constantly improve himself, and, in my opinion, is the personification of "the only person you should strive to be better than is the person you were yesterday" demonstrated by his leap into multi-level secure programming upon discovery of a security vulnerability in one of his older projects. It is with great pleasure and enthusiasm that I recommend Farhan to you. He is in every way unique, and will be most certainly be an invaluable asset to those he works both for and alongside.',
-  //   name: "Zade Ammar",
-  //   designation: "Cyber Security Engineer",
-  //   company: "Acme Co",
-  //   image: "https://randomuser.me/api/portraits/men/4.jpg",
-  // },
+  {
+    testimonial:
+      'Farhan is an extremely bright and talented computer science prodigy. He has always demonstrated an incredible keenness for problem solving, logical thinking, and application development. He is also an extremely quick and efficient learner, having learned and properly understood the process of creating a fully functional web application in under 5 months. Apart from that, he excels at object oriented programming, as well as all logic oriented sciences. He is extremely passionate about what he does, never gives up, and has an incredibly positive and enthusiastic work ethic, which is one of my favorite traits about him. He is always curious to learn new things and expand his skills and knowledge in any possible way, as he has demonstrated by taking on various personal projects in his free time, in all of which he has learned new concepts and design strategies. He is extremely determined to constantly improve himself, and, in my opinion, is the personification of "the only person you should strive to be better than is the person you were yesterday" demonstrated by his leap into multi-level secure programming upon discovery of a security vulnerability in one of his older projects. It is with great pleasure and enthusiasm that I recommend Farhan to you. He is in every way unique, and will be most certainly be an invaluable asset to those he works both for and alongside.',
+    name: "Zade Ammar",
+    designation: "Compsci & Cyber Security Student",
+    link: "https://www.linkedin.com/in/zade-ammar/",
+    company: "Carleton University",
+    image: nopfp,
+  },
   {
     testimonial:
       "Reliable, intelligent and trustworthy individual who takes advantage of opportunities, one to look out for. Farhan would be an invaluable asset to any fortunate organization he joins.",
@@ -188,22 +187,6 @@ const testimonials = [
     link: "https://www.linkedin.com/in/andytian04/",
     company: "Digitera Interactive",
     image: andy,
-  },
-  {
-    testimonial:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
 ];
 

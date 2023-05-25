@@ -41,6 +41,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import andy from "./andy.jpg";
+import nopfp from "./default.jpg";
 
 export {
   logo,
@@ -67,6 +68,7 @@ export {
   mongodb,
   express,
   nodejs,
+  nopfp,
   reactjs,
   live,
   redux,
