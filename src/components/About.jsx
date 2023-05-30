@@ -41,8 +41,8 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]"
         >
-          Hey there 👋 I'm Farhan. I am currently the Lead Full Stack Software
-          Engineer/Technical Lead at Digitera Interactive and a Computer Science
+          Hey there 👋 I'm Farhan. I am currently one of the Co-Founders of Prom Planner and the Lead Full Stack Software
+          Engineer/Technical Lead at Digitera Interactive. I am also a Computer Science
           & Business Management Student @ Carleton University. I am
           constantly looking for enriching opportunities with cutting-edge
           technology that I can use to change the world for the better. I like
