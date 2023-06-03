@@ -139,9 +139,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Nov 2022 - Present",
     points: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Currently leading and managing the Full Stack & Mobile Engineering teams as we develop the Prom Planner application and prepare it for launch with 35k+ schools in USA & Canada, 15.5 Million Students in USA & Canada & 40k+ Vendors in USA & Canada!",
     ],
   },
   {
@@ -152,9 +150,13 @@ const experiences = [
     iconBg: "#383E56",
     date: "Nov 2022 - Present",
     points: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Performed technical interviews with potential candidates and assessed their soft and hard skills to determine whether or not they make a good fit at Digitera.",
+      " Performed code reviews and mentored junior engineers.",
+      " Designed and single-handedly implemented the famous bid system connecting prom vendors directly to prom committees & students, B2B & B2C.",
+      " Introduced and developed from the ground up the second, third and fourth tier of Prom Planner which is the Local Admin, Student & Vendor portals.",
+      "Designed and implemented a fast & secure mass-import mechanism that allows users to mass-import various data sets in a CSV format.",
+      "Designed and implemented numerous internal REST APIs used by the internal admin dashboard and our mobile team which provides insights about Prom Planner.",
+      " Implemented a 2-degree of security involved in accepting/rejecting when a user attempts to create an account to avoid malicious spam attacks or fake accounts.",
     ],
   },
   {
@@ -165,9 +167,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "June 2022- Nov 2022",
     points: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Built various functional interfaces used by stakeholders with PHP, Laravel, Laravel Orchid, MySQL, HTML & CSS making administrative tasks efficient and more straightforward to use.",
+      "Designed and Implemented multiple fast and secure CRUD (create, read, update, delete) functionalities used by stakeholders to facilitate administrative tasks for the Prom Planner.",
+      "Attended weekly standups with stakeholders and the CEO in addition to developing reports based on my continuous contributions to the company.",
     ],
   },
 ];
@@ -208,36 +210,40 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "JS",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "blue-text-gradient",
       },
       {
         name: "PHP",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "MySQL",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "Laravel",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "Laravel Orchid",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MVC",
         color: "green-text-gradient",
       },
       {
-        name: "ORM",
+        name: "MVC",
         color: "pink-text-gradient",
       },
       {
-        name: "REST APIs",
+        name: "ORM",
         color: "blue-text-gradient",
+      },
+      {
+        name: "REST APIs",
+        color: "green-text-gradient",
       },
     ],
     image: pp,
