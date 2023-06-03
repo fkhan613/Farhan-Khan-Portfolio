@@ -14,10 +14,13 @@ import {
   mongodb,
   git,
   digitera,
-  carrent,
+  omega,
   java,
+  bsimg,
   lorchid,
+  pp,
   laravel,
+  busSchedule,
   mysql,
   andy,
   php,
@@ -192,92 +195,115 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Blank",
+    name: "Prom Planner",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Prom Planner is designed to be an organizational tool for Prom Committees all over the world. No longer to you have to suffer with spreadsheets and paper, Prom Planner gives you a state-of-the-art digital platform in which to keep all your Prom Committee activities organized, so that your schools big events run that much more smoothly. My role is to lead the development of the web application, as well as the mobile application. I am also responsible for the design and implementation of the database and maintining the codebase.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JS",
         color: "pink-text-gradient",
       },
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Laravel Orchid",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MVC",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ORM",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "REST APIs",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/fkhan613",
-    live_link: "",
+    image: pp,
+    source_code_link: "https://github.com/fkhan613/PromPlanner",
+    live_link: "https://promplanner.app/",
   },
   {
-    name: "Blank",
+    name: "Omega Academy",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      ' This platform allows students to register and create an account. Once logged in, the student can choose courses, drop courses, view their courses, and view courses other people are taking. This website is also fully responsive and offers a "forgot password" feature where you will recieve a verification email when attempting to change your password. In addition, it also offers a "remember me for x days" feature utilizing cookies.',
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "JS",
         color: "pink-text-gradient",
       },
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JQuery",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AOS",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/fkhan613",
-    live_link: "",
+    image: omega,
+    source_code_link:
+      "https://github.com/fkhan613/University-Management-Software-Omega-Academy",
+    live_link: "https://omegaacademy.epizy.com/",
   },
   {
-    name: "Blank",
+    name: "Bus Scheduling Software",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "This Bus Scheduling Software can be used for commercial use. You can create/delete routes, add/remove busses from routes, add/remove passengers from buses. You can also view all this information in an organized manner, This software uses a text file database so even if the program is closed, all data will still be saved and can be reloaded.",
     tags: [
       {
-        name: "react",
+        name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "OOP",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Data Structures",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/fkhan613",
-    live_link: "",
-  },
-  {
-    name: "Blank",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/fkhan613",
-    live_link: "",
+    image: bsimg,
+    source_code_link: "https://github.com/fkhan613/Bus-Scheduling-Software",
+    live_link: busSchedule,
   },
 ];
 

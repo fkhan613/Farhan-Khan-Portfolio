@@ -36,9 +36,12 @@ import tesla from "./company/tesla.png";
 import promplanner from "./company/promplanner.png";
 import digitera from "./company/digitera.png";
 
-import carrent from "./carrent.png";
+import omega from "./omega.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import pp from "./pp.png";
+import busSchedule from "./Bus.Scheduling.Software.Flowchart.pdf";
+import bsimg from "./bsimg.png";
 
 import andy from "./andy.jpg";
 import nopfp from "./default.jpg";
@@ -46,6 +49,7 @@ import nopfp from "./default.jpg";
 export {
   logo,
   backend,
+  pp,
   andy,
   creator,
   mobile,
@@ -53,6 +57,8 @@ export {
   python,
   php,
   lorchid,
+  bsimg,
+  busSchedule,
   laravel,
   mysql,
   web,
@@ -80,7 +86,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  omega,
   jobit,
   tripguide,
   promplanner,
