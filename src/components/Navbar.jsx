@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, linkedin, github } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -21,13 +21,29 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 scale-105 object-contain" />
+          <img
+            src={logo}
+            alt="logo"
+            className="w-9 h-9 scale-105 object-contain"
+          />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Farhan Khan &nbsp;
-            <span className="sm:block hidden">|&nbsp; Lead Software Engineer</span>
+            <span className="sm:block hidden">
+              |&nbsp; Lead Software Engineer
+            </span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
+          <li className=" hover:text-white cursor-pointer">
+            <a href="https://www.linkedin.com/in/farhan-khan-/" target="_blank">
+              <img src={linkedin} className="w-8"/>
+            </a>
+          </li>
+          <li className="cursor-pointer">
+            <a href="https://github.com/fkhan613" target="_blank">
+              <img src={github} className="w-8"/>
+            </a>
+          </li>
           {navLinks.map((nav) => (
             <li
               key={nav.id}

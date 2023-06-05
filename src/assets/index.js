@@ -42,6 +42,7 @@ import tripguide from "./tripguide.png";
 import pp from "./pp.png";
 import busSchedule from "./Bus.Scheduling.Software.Flowchart.pdf";
 import bsimg from "./bsimg.png";
+import linkedin from "./linkedin.png";
 
 import andy from "./andy.jpg";
 import nopfp from "./default.jpg";
@@ -53,6 +54,7 @@ export {
   andy,
   creator,
   mobile,
+  linkedin,
   java,
   python,
   php,
