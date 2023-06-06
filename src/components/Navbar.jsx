@@ -36,12 +36,12 @@ const Navbar = () => {
         <ul className="list-none hidden sm:flex flex-row gap-10">
           <li className=" hover:text-white cursor-pointer">
             <a href="https://www.linkedin.com/in/farhan-khan-/" target="_blank">
-              <img src={linkedin} className="w-8"/>
+              <img src={linkedin} className="w-8" />
             </a>
           </li>
           <li className="cursor-pointer">
             <a href="https://github.com/fkhan613" target="_blank">
-              <img src={github} className="w-8"/>
+              <img src={github} className="w-8" />
             </a>
           </li>
           {navLinks.map((nav) => (
@@ -89,6 +89,22 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <li className="flex flex-row gap-5">
+
+              <li className=" hover:text-white cursor-pointer">
+                <a
+                  href="https://www.linkedin.com/in/farhan-khan-/"
+                  target="_blank"
+                >
+                  <img src={linkedin} className="w-8" />
+                </a>
+              </li>
+              <li className="cursor-pointer">
+                <a href="https://github.com/fkhan613" target="_blank">
+                  <img src={github} className="w-8" />
+                </a>
+              </li>
+              </li>
             </ul>
           </div>
         </div>
