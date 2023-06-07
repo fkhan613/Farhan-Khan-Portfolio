@@ -21,7 +21,7 @@ export const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.27 : 0.75}
-        position={isMobile ? [0,-1.0,-0.51]:[0, -3.25, -1.5]}
+        position={isMobile ? [0, -1.0, -0.51] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -52,6 +52,7 @@ const ComputersCanvas = () => {
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      className="cursor-grab"
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
