@@ -89,9 +89,9 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
-              <li className="flex flex-row gap-5">
+              <div className="flex flex-row gap-5">
 
-              <li className=" hover:text-white cursor-pointer">
+              <li className=" hover:text-white cursor-pointer ">
                 <a
                   href="https://www.linkedin.com/in/farhan-khan-/"
                   target="_blank"
@@ -100,11 +100,11 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="cursor-pointer">
-                <a href="https://github.com/fkhan613" target="_blank">
+                <a href="https://github.com/fkhan613" target="_blank" >
                   <img src={github} className="w-8" />
                 </a>
               </li>
-              </li>
+              </div>
             </ul>
           </div>
         </div>
