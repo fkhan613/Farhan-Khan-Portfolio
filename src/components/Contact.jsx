@@ -7,6 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { ToastContainer, toast } from "react-toastify";
+import { setCookie, getCookie, checkCookie } from "../utils/cookies";
 import "react-toastify/dist/ReactToastify.css";
 import '../App.css'
 
@@ -19,7 +20,6 @@ const Contact = () => {
   });
 
   const [loading, setloading] = useState(false);
-  const [counter, setCounter] = useState(60);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -30,25 +30,19 @@ const Contact = () => {
     e.preventDefault();
     setloading(true);
 
+    //check if user has already contacted me
+    if(checkCookie("shbf_HijKls4763235")){
+      setloading(false);
+      toast.error("You have already contacted me. Please wait 1 day before sending again.");
+      return;
+    }
+
     //make sure nothing is blank in form 
     if (form.name === "" || form.email === "" || form.message === "") {
       setloading(false);
       toast.error("Please fill all the fields.");
       return;
     }
-
-    //disable submit button for 60 seconds
-    const submitBtn = formRef.current.lastChild;
-    submitBtn.disabled = true;
-    submitBtn.style.cursor = "not-allowed";
-    submitBtn.style.opacity = "0.5";
-    submitBtn.innerText = "Wait 2 minutes to send again";
-
-    setTimeout(() => {
-      submitBtn.disabled = false;
-      submitBtn.style.cursor = "pointer";
-      submitBtn.style.opacity = "1";
-    }, 120000);
 
     emailjs
       .send(
@@ -57,7 +51,7 @@ const Contact = () => {
         {
           from_name: form.name,
           from_email: form.email,
-          message: form.message,
+          message: `${form.message} \n\n\ From: ${form.name} \n\n\ Email: ${form.email}`,
           to_name: "Farhan",
           to_email: "farhan.work435@gmail.com",
         },
@@ -74,6 +68,7 @@ const Contact = () => {
             email: "",
             message: "",
           });
+          setCookie("shbf_HijKls4763235", true, 1);
         },
         (error) => {
           setloading(false);
