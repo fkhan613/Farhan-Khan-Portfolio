@@ -41,15 +41,23 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]"
         >
-          Hey there 👋 I'm Farhan. I am currently one of the Co-Founders of Prom Planner and the Lead Full Stack Software
-          Engineer/Technical Lead at Digitera Interactive. I am also a Computer Science
-          & Business Management Student @ Carleton University. I am
-          constantly looking for enriching opportunities with cutting-edge
-          technology that I can use to change the world for the better. I like
-          working on team projects and getting to know new people, as it allows
-          me to learn from other's experiences and create valuable networks
-          along the way. Feel free to look at some of my work on GitHub or send
-          me a message.
+          Hey there 👋, I’m Farhan, Founder and Lead Software Engineer at Lunaris Software. I
+          design and build scalable, high performance web applications using
+          modern technologies like Next.js, React, TypeScript, and Node.js. I’ve
+          led engineering teams, shipped production systems used by real users,
+          and delivered projects end to end from architecture and UI to
+          deployment and maintenance. Previously, I served as Lead Software
+          Engineer at Digitera Interactive and co-founded Prom Planner, where I
+          focused on technical leadership, code quality, and execution speed.
+          I’ve worked with startups and businesses to turn vague ideas into
+          reliable, maintainable software that performs. I’m also a Computer
+          Science and Business Management student at Carleton University, which
+          gives me a strong balance between technical depth and business
+          thinking. I value clean architecture, measurable results, and building
+          systems that scale without unnecessary complexity. If you’re a
+          recruiter looking for a strong engineering hire or a client looking
+          for someone who can actually ship and maintain quality software, feel
+          free to check out my GitHub or reach out directly.
         </motion.p>
 
         <div className="mt-20 flex flex-wrap gap-10 justify-center">

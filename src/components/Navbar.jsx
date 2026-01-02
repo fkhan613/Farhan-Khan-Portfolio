@@ -29,7 +29,7 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Farhan Khan &nbsp;
             <span className="sm:block hidden">
-              |&nbsp; Lead Software Engineer
+              |&nbsp; Founder & Software Engineer
             </span>
           </p>
         </Link>

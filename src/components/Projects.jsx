@@ -14,7 +14,9 @@ const ProjectCard = ({
   image,
   live_link,
   tags,
+  imageBg,
 }) => {
+  const hasImageBg = Boolean(imageBg);
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -23,13 +25,18 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-ful"
+        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div
+          className="relative w-full h-[230px] rounded-2xl overflow-hidden"
+          style={{ backgroundColor: imageBg || "transparent" }}
+        >
           <img
             src={image}
             alt={name}
-            className="w-full h-full object-cover rounded-2xl"
+            className={`w-full h-full ${
+              hasImageBg ? "object-contain p-4" : "object-cover"
+            } rounded-2xl`}
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1">
             <div
@@ -64,7 +71,9 @@ const ProjectCard = ({
         </div>
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag, index) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>#{tag.name}</p>
+            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+              #{tag.name}
+            </p>
           ))}
         </div>
       </Tilt>
@@ -83,7 +92,7 @@ const Projects = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3x1 leading-[30px]"
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         ></motion.p>
       </div>
 

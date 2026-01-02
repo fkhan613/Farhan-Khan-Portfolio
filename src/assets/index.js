@@ -40,9 +40,15 @@ import omega from "./omega.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import pp from "./pp.png";
+import lunarisLogo from "./lunaris-logo-full.png";
 import busSchedule from "./Bus.Scheduling.Software.Flowchart.pdf";
 import bsimg from "./bsimg.png";
 import linkedin from "./linkedin.png";
+import mezzaluna from "./mezzalunaslogo.jpg";
+import kova from "./kova-k-nobg.png";
+import samikabir from "./samikabirlogo.png";
+import beyondTheWheel from "./beyondthewheellogo.jpg";
+import yellowstone from "./yellowstone-granite-quartz-logo.png";
 
 import andy from "./andy.jpg";
 import nopfp from "./default.jpg";
@@ -92,4 +98,10 @@ export {
   jobit,
   tripguide,
   promplanner,
+  lunarisLogo,
+  mezzaluna,
+  kova,
+  samikabir,
+  beyondTheWheel,
+  yellowstone,
 };

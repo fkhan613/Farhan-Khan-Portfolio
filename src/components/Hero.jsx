@@ -28,7 +28,7 @@ const Hero = () => {
                   loop: true,
                   delay: 40,
                   strings: [
-                    "Co-Founder of Prom Planner",
+                    "Founder & CEO of Lunaris Software",
                     "Software Engineer",
                     "Technical Lead",
                     "CompSci and Business Management Student",

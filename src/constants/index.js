@@ -22,11 +22,17 @@ import {
   laravel,
   busSchedule,
   mysql,
+  mezzaluna,
+  kova,
+  samikabir,
+  beyondTheWheel,
+  yellowstone,
   andy,
   php,
   nopfp,
   python,
   promplanner,
+  lunarisLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -50,11 +56,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Lead Software Engineer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "Technical Lead",
+    title: "Web Developer",
     icon: mobile,
   },
   {
@@ -136,14 +142,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Co-Founder & Lead Software Engineer",
-    company_name: "Prom Planner by Digitera",
-    link: "https://promplanner.app/",
-    icon: promplanner,
+    title: "Founder & Lead Software Engineer",
+    company_name: "Lunaris Software",
+    link: "https://www.lunarissoftware.com/",
+    icon: lunarisLogo,
     iconBg: "#383E56",
     date: "Nov 2022 - Present",
     points: [
-      "Currently leading and managing the Full Stack & Mobile Engineering teams as we develop the Prom Planner application and prepare it for launch with 35k+ schools in USA & Canada, 15.5 Million Students in USA & Canada & 40k+ Vendors in USA & Canada!",
+      "Build performance-first digital experiences for global clients with modern stacks (Next.js, React, TypeScript) and custom software tuned for growth.",
+      "Deliver full lifecycle work—design, build, deploy, maintain—with clean, scalable architecture and SEO baked in from day one.",
+      "Prioritize speed and UX (95+ Lighthouse targets) through minimalist, conversion-focused design and technical rigor.",
+      "Partner with small businesses, startups, and entrepreneurs to ship fast, beautiful products supported by transparent communication.",
     ],
   },
   {
@@ -152,7 +161,7 @@ const experiences = [
     link: "https://digitalmarketingplus.com/",
     icon: digitera,
     iconBg: "#383E56",
-    date: "Nov 2022 - Present",
+    date: "Nov 2022 - April 2025",
     points: [
       "Performed technical interviews with potential candidates and assessed their soft and hard skills to determine whether or not they make a good fit at Digitera.",
       " Performed code reviews and mentored junior engineers.",
@@ -200,6 +209,72 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Mezzaluna",
+    description: "Product-forward landing page for a local culinary brand.",
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "Tailwind", color: "pink-text-gradient" },
+    ],
+    image: mezzaluna,
+    source_code_link: "https://mezzaluna.lunarissoftware.com/",
+    live_link: "https://mezzaluna.lunarissoftware.com/",
+  },
+  {
+    name: "Kova",
+    description:
+      "High-impact microsite showcasing Lunaris' modern brand refresh.",
+    imageBg: "#ffffff",
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "Tailwind", color: "pink-text-gradient" },
+    ],
+    image: kova,
+    source_code_link: "https://kova.lunarissoftware.com/",
+    live_link: "https://kova.lunarissoftware.com/",
+  },
+  {
+    name: "Sami Kabir",
+    description:
+      "Personal brand site emphasizing portfolio storytelling, services, and lead capture with refined typography.",
+    imageBg: "#ffffff",
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "Tailwind", color: "pink-text-gradient" },
+    ],
+    image: samikabir,
+    source_code_link: "https://samikabir.ca/",
+    live_link: "https://samikabir.ca/",
+  },
+  {
+    name: "Beyond The Wheel Detailing",
+    description:
+      "Professional car detailing business offering premium cleaning and restoration services.",
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "Tailwind", color: "pink-text-gradient" },
+    ],
+    image: beyondTheWheel,
+    source_code_link: "https://www.beyondthewheelcd.ca/",
+    live_link: "https://www.beyondthewheelcd.ca/",
+  },
+  {
+    name: "Yellowstone Granite & Quartz",
+    description:
+      "Marble and granite business specializing in premium stone surfaces and installations.",
+    tags: [
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "React", color: "green-text-gradient" },
+      { name: "Tailwind", color: "pink-text-gradient" },
+    ],
+    image: yellowstone,
+    source_code_link: "https://www.yellowstoneottawa.ca/",
+    live_link: "https://www.yellowstoneottawa.ca/",
+  },
   {
     name: "Prom Planner",
     description:
