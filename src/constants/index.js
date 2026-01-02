@@ -366,7 +366,7 @@ const projects = [
     image: omega,
     source_code_link:
       "https://github.com/fkhan613/University-Management-Software-Omega-Academy",
-    live_link: "https://omegaacademy.epizy.com/",
+    live_link: "https://omegaacademy.rf.gd/",
   },
   {
     name: "Bus Scheduling Software",
