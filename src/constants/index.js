@@ -161,7 +161,7 @@ const experiences = [
     link: "https://digitalmarketingplus.com/",
     icon: digitera,
     iconBg: "#383E56",
-    date: "Nov 2022 - April 2025",
+    date: "Nov 2022 - Jan 2025",
     points: [
       "Performed technical interviews with potential candidates and assessed their soft and hard skills to determine whether or not they make a good fit at Digitera.",
       " Performed code reviews and mentored junior engineers.",
